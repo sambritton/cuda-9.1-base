@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: nvidia/cuda:9.1-cudnn7-devel-ubuntu16.04
+From: nvidia/9.2-cudnn7-devel-ubuntu18.04
 
 %post
 

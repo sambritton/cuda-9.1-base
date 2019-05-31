@@ -1,5 +1,5 @@
-FROM nvidia/cuda:9.1-cudnn7-devel-ubuntu16.04
-FROM nvidia/cuda:9.1-cudnn7-devel-ubuntu16.04
+FROM nvidia/9.2-cudnn7-devel-ubuntu18.04
+FROM nvidia/9.2-cudnn7-devel-ubuntu18.04
 RUN # Update list of available packages, then upgrade them
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
